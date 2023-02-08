@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+main {
+    max-width: 1140;
+    
+}
+
+.header {
+    position: right;
+    width: 1600px;
+    height: 808px;
+    background-image: url(/images/banner/banner3.png);
+}
+
+.section {
+    text-align: right;
+}
+
+.section-title {
+    text-align: right;
+    display: flex;
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: right;
+
+}
+
+
+.btn-primary {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #FFFFFF;
+    margin-top: 10px;
+    color: #005FAC;
+}
+
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.div{
+   
+}
+.plan .my{
+    text-align: center;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
