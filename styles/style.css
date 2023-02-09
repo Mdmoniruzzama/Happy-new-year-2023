@@ -5,19 +5,22 @@
 
 main {
     max-width: 1140;
-    
+
+}
+
+
+.section {
+    text-align: right;
 }
 
 .header {
     position: right;
     width: 1600px;
     height: 808px;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url('/images/banner/banner3.png');
 }
 
-.section {
-    text-align: right;
-}
+
 
 .section-title {
     text-align: right;
@@ -28,11 +31,21 @@ main {
 
 }
 
+.title {
+    margin-top: 50px;
+}
+
+.description {
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
 .sub-title {
     font-weight: 400;
     font-size: 16px;
     color: #FFFFFF;
     text-align: right;
+    margin-top: 50px;
 
 }
 
@@ -49,18 +62,55 @@ main {
 }
 
 
-.flex{
+.flex {
+
     display: flex;
     align-items: center;
 }
-.div{
-   
+
+.div {
+    position: right;
 }
-.plan .my{
+
+.plan .my {
     text-align: center;
 }
-.plans{
+
+.plans {
     display: flex;
     justify-content: space-between;
     margin-top: 100px;
+}
+
+.container {
+    justify-items: center;
+    margin-top: 50px;
+    background-image: url('../images/gradient3.png'), url('../images/watch.png');
+    width: 1140px;
+    height: 300px;
+}
+
+.midel {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.footer {
+  margin-top: 50px;
+    display: flex;
+    width: 1600px;
+    height: 577px;
+    background-color: black;
+}
+
+.future {
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.sub-future {
+    font-weight: 400;
+    font-size: 35px;
+    margin-top: 10px;
 }
