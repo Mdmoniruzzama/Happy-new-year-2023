@@ -96,7 +96,7 @@ main {
 }
 
 .footer {
-  margin-top: 50px;
+    margin-top: 50px;
     display: flex;
     width: 1600px;
     height: 577px;
@@ -109,8 +109,21 @@ main {
     color: #FFFFFF;
 }
 
-.sub-future {
+.sub-future a {
     font-weight: 400;
     font-size: 35px;
     margin-top: 10px;
+}
+
+
+.futures {
+    width: 325px;
+    height: 204px;
+}
+
+.ancor , img{
+    text-decoration: none;
+}
+.btn-primarys{
+    color: #FFFFFF;
 }
